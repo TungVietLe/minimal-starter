@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
-/* scroll bar */
-/* width */
-::-webkit-scrollbar {
-    width: 0.9vw;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background-color: var(--scrollbar-track);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
-    border-radius: 10px;
-}
-
 /* main */
 :root {
     --bg: #191919;
@@ -34,6 +17,18 @@
     /* scroll bar */
     --scrollbar-track: transparent;
     --scrollbar-thumb: #494949;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 0.9vw;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 10px;
 }
 
 html {
